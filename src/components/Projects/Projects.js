@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import codefest from "../../Assets/Projects/codefest.png";
 import covidan from "../../Assets/Projects/covidan.png";
 import docsys from "../../Assets/Projects/docsys.png";
+import loanweb from "../../Assets/Projects/loanweb.png";
 import wsblp from "../../Assets/Projects/wsblp.png";
 import SimpleLibrary from "../../Assets/Projects/SimpleLibrary.png";
 
@@ -28,6 +29,17 @@ function Projects() {
               description="A website used to input information and record data from each ship. It can be used to monitor goods and ship data, which can be verified with user data."
               ghLink="https://github.com/sleepingindomie/tester-sai"
               demoLink="https://docsys.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={loanweb}
+              isBlog={false}
+              title="Loan Web"
+              description="A website used to input information and record data from each ship. It can be used to monitor goods and ship data, which can be verified with user data."
+              ghLink="https://github.com/sleepingindomie/loan-web"
+              demoLink="https://loan-web-phi.vercel.app/login"
             />
           </Col>
 
