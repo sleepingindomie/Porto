@@ -25,7 +25,7 @@ function Home2() {
               <br />I'm experienced in creating websites using frameworks like 
               <b className="purple"> Laravel &nbsp;</b>
               and I also have skills in 
-              <b className="purple"> HTML, CSS, and JavaScript. </b>
+              <b className="purple"> Python, PHP, and JavaScript. </b>
               <br />
               <br />
               My field of interest is in creating user-friendly and responsive websites, 
