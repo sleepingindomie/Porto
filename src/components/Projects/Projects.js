@@ -26,7 +26,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={lofi}
+              imgPath={quran}
               isBlog={false}
               title="Quran Digital"
               description="Digital Quran web application with Indonesian translation, audio per verse, and real-time prayer schedule"
