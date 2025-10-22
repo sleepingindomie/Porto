@@ -8,6 +8,7 @@ import docsys from "../../Assets/Projects/docsys.png";
 import loanweb from "../../Assets/Projects/loanweb.png";
 import wsblp from "../../Assets/Projects/wsblp.png";
 import SimpleLibrary from "../../Assets/Projects/SimpleLibrary.png";
+import lofi from "../../Assets/Projects/lofimini.png";
 
 function Projects() {
   return (
@@ -21,6 +22,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lofi}
+              isBlog={false}
+              title="LoFi Mini"
+              description="A modern focus timer combining Pomodoro technique, lo-fi beats, and procedurally generated ambient sounds with stunning glassmorphism UI"
+              ghLink="https://github.com/sleepingindomie/lofimini"
+              demoLink="https://lofimini.vercel.app/"     
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={docsys}
