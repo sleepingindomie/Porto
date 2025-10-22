@@ -9,6 +9,7 @@ import loanweb from "../../Assets/Projects/loanweb.png";
 import wsblp from "../../Assets/Projects/wsblp.png";
 import SimpleLibrary from "../../Assets/Projects/SimpleLibrary.png";
 import lofi from "../../Assets/Projects/lofimini.png";
+import quran from "../../Assets/Projects/qurandigital.png";
 
 function Projects() {
   return (
@@ -22,6 +23,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lofi}
+              isBlog={false}
+              title="Quran Digital"
+              description="Digital Quran web application with Indonesian translation, audio per verse, and real-time prayer schedule"
+              ghLink="https://github.com/sleepingindomie/qurandigital"
+              demoLink="https://qurandigital-kappa.vercel.app/"     
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
